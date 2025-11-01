@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="todolist.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todoApp">
+            <h2>To Do List <i class="fa-solid fa-list" style="color: #ffffff;"></i></h2>
+            <div class="row">
+                <input class="input-box" type="text" placeholder="Add your Task">
+                <button class="btn" onclick="addTask()"><i class="fa-solid fa-plus" style="color: #000;"></i></button>
+            </div>
+            <ul class="list-container">
+            </ul>
+        </div>
+    </div>
+    <script src="todolist.js"></script>
+</body>
+
+</html>
